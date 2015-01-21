@@ -1,0 +1,95 @@
+@media screen and (min-width:480px) {
+
+    /*INDEX PAGE*/
+
+    #gallery li {
+        width: 28.33333333%;
+    }
+
+    #gallery li:nth-child(4n) {
+        clear: left;
+    }
+
+    .arrangePhoto p {
+        font-size: 1.10em;
+    }
+
+
+}
+
+@media screen and (min-width: 600px) {
+
+    /*CONTACT PAGE*/
+
+    #primary {
+        float: left;
+        width: 50%;
+    }
+
+    #primary h3, p {
+        /*text-align: left;*/
+
+    }
+
+    #secondary {
+        text-align: left;
+        float: right;
+        width:  40%
+    }
+
+    #downloadResume {
+
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+
+    /*GENERAL*/
+
+    header a {
+        float: left;
+        text-align: left;
+        margin-left: 20px;
+        padding-left: 20px;
+    }
+
+    header {
+        border-bottom: 5px solid #196D7B;
+    }
+
+    nav ul {
+        text-align: right;
+    }
+
+    nav {
+        float: right;
+        background: none;
+    }
+    /*ABOUT PAGE*/
+
+    .profile-photo {
+        float: left;
+        margin: 0 5% 20px 0;
+        max-width: 400px;
+    }
+
+    /*WORK*/
+
+    .arrangePhoto img {
+        width: 50%;
+    }
+
+    .arrangePhoto li p  {
+        width : 40%;
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 11000px) {
+
+    .arrangePhoto li p {
+        /*font-size: 1.25em;*/
+    }
+}
